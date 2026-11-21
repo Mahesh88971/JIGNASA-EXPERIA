@@ -57,11 +57,11 @@ export const PaymentGatewayModal: React.FC<PaymentGatewayModalProps> = ({
         <div className="bg-[#211915] text-[#FFF8EA] px-6 py-4 flex items-center justify-between border-b border-[#524033]">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-[#A52B23] flex items-center justify-center text-white font-serif font-bold text-sm">
-              JE
+              AT
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-serif font-bold text-sm text-white">Jignasa Experia Secure Checkout</span>
+                <span className="font-serif font-bold text-sm text-white">AP TOURISM Secure Checkout</span>
                 <span className="text-[10px] bg-emerald-950 text-emerald-400 border border-emerald-700/50 px-1.5 py-0.5 rounded flex items-center gap-1 font-mono">
                   <Lock className="w-2.5 h-2.5" /> 256-bit SSL
                 </span>

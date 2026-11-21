@@ -14,15 +14,15 @@ export const FAQPage: React.FC<FAQPageProps> = ({ currentLang, onOpenCurator }) 
   const faqData = [
     {
       category: 'about',
-      categoryLabel: currentLang === 'en' ? 'About Jignasa Experia' : 'జిజ్ఞాస ఎక్స్‌పీరియా నేపథ్యం',
+      categoryLabel: currentLang === 'en' ? 'About AP TOURISM' : 'AP TOURISM నేపథ్యం',
       items: [
         {
           id: 'faq-1',
           question: currentLang === 'en'
-            ? 'What makes Jignasa Experia different from ordinary tourism companies?'
-            : 'సాధారణ పర్యాటక సంస్థలతో పోలిస్తే జిజ్ఞాస ఎక్స్‌పీరియా ప్రత్యేకత ఏమిటి?',
+            ? 'What makes AP TOURISM different from ordinary tourism companies?'
+            : 'సాధారణ పర్యాటక సంస్థలతో పోలిస్తే AP TOURISM ప్రత్యేకత ఏమిటి?',
           answer: currentLang === 'en'
-            ? 'We do not run hurried bus tours or commercial sightseeing. Jignasa Experia is a cultural conservancy. Every immersion is slow, participatory, and led by living custodians—Vedic temple epigraphists, 4th-generation master weavers, and culinary ethnographers. You don’t just watch; you weave on pit-looms, pound Gongura on granite stones, and receive blessed temple darshans without long queues.'
+            ? 'We do not run hurried bus tours or commercial sightseeing. AP TOURISM is a cultural conservancy. Every immersion is slow, participatory, and led by living custodians—Vedic temple epigraphists, 4th-generation master weavers, and culinary ethnographers. You don’t just watch; you weave on pit-looms, pound Gongura on granite stones, and receive blessed temple darshans without long queues.'
             : 'మేము హడావుడి బస్సు టూర్లు నిర్వహించము. మాది ఒక సాంస్కృతిక సంస్థ. పండితులు, చేనేత శిల్పులు మరియు పాకశాస్త్రజ్ఞుల సమక్షంలో ప్రత్యక్ష అనుభవాలను అందిస్తాము.',
         },
         {

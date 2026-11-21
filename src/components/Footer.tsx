@@ -35,11 +35,11 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenC
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 pb-16 border-b border-[#524033]">
-          {/* Col 1: About Jignasa Experia */}
+          {/* Col 1: About AP TOURISM */}
           <div className="lg:col-span-2 space-y-5">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#A52B23] border border-[#966000] flex items-center justify-center">
-                <span className="font-serif font-bold text-base text-[#FFF8EA]">JE</span>
+                <span className="font-serif font-bold text-base text-[#FFF8EA]">AT</span>
               </div>
               <span className="font-serif text-2xl font-bold tracking-tight text-[#FFF8EA]">
                 {t.brandName}
@@ -47,8 +47,8 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenC
             </div>
             <p className="text-sm text-[#C4B39B] leading-relaxed max-w-sm">
               {currentLang === 'en'
-                ? 'Jignasa Experia is a premium cultural tourism atelier. We curate intimate, transformative journeys led by temple scholars, master handloom weavers, and generational custodians across sacred Andhra Pradesh.'
-                : 'జిజ్ఞాస ఎక్స్‌పీరియా ఒక విశిష్ట సాంస్కృతిక సంస్థ. పవిత్ర క్షేత్రాలు, చేనేత కళాకారులు మరియు ప్రాచీన వారసత్వ సంపదను ప్రపంచానికి సజీవంగా అందించే విశిష్ట వేదిక.'}
+                ? 'AP TOURISM is a premium cultural tourism atelier. We curate intimate, transformative journeys led by temple scholars, master handloom weavers, and generational custodians across sacred Andhra Pradesh.'
+                : 'AP TOURISM ఒక విశిష్ట సాంస్కృతిక సంస్థ. పవిత్ర క్షేత్రాలు, చేనేత కళాకారులు మరియు ప్రాచీన వారసత్వ సంపదను ప్రపంచానికి సజీవంగా అందించే విశిష్ట వేదిక.'}
             </p>
             <div className="pt-2">
               <span className="inline-block px-3 py-1 bg-[#A52B23]/40 border border-[#966000]/40 rounded-full text-xs text-[#F0B323] font-serif italic">
@@ -60,7 +60,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenC
               <a 
                 href="#instagram" 
                 className="w-9 h-9 rounded-full bg-[#422E23] hover:bg-[#A52B23] flex items-center justify-center text-[#FFF8EA] transition-colors"
-                title="Instagram @JignasaExperia"
+                title="Instagram @APTourism"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
@@ -120,7 +120,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenC
             <ul className="space-y-2.5 text-xs text-[#C4B39B]">
               <li>
                 <button onClick={() => onNavigate('faq')} className="hover:text-[#FFF8EA] transition-colors">
-                  {currentLang === 'en' ? 'About Jignasa Experia' : 'జిజ్ఞాస ఎక్స్‌పీరియా నేపథ్యం'}
+                  {currentLang === 'en' ? 'About AP TOURISM' : 'AP TOURISM నేపథ్యం'}
                 </button>
               </li>
               <li>
@@ -154,7 +154,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenC
             <div className="space-y-2 text-xs text-[#C4B39B]">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#966000] shrink-0 mt-0.5" />
-                <span>Jignasa Experia Cultural Pavilion, Mangalagiri Ghat Road, Amaravati Belt 522503</span>
+                <span>AP TOURISM Cultural Pavilion, Mangalagiri Ghat Road, Amaravati Belt 522503</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#966000] shrink-0" />
@@ -162,14 +162,14 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenC
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#966000] shrink-0" />
-                <span>concierge@jignasaexperia.com</span>
+                <span>concierge@aptourism.com</span>
               </div>
             </div>
 
             {/* Newsletter Signup */}
             <div className="pt-2">
               <h5 className="text-[11px] font-semibold text-[#FFF8EA] mb-1.5">
-                {currentLang === 'en' ? 'The Jignasa Cultural Chronicle' : 'త్రైమాసిక సాంస్కృతిక పత్రిక'}
+                {currentLang === 'en' ? 'The AP TOURISM Cultural Chronicle' : 'AP TOURISM సాంస్కృతిక పత్రిక'}
               </h5>
               <p className="text-[11px] text-[#95806B] mb-2">
                 {currentLang === 'en' ? 'Curated essays, temple festival calendars & seasonal rituals.' : 'ప్రత్యేక పండుగల వివరాలు మరియు సంప్రదాయ వైభవం.'}

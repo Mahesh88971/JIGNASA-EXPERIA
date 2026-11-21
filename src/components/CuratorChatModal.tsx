@@ -42,8 +42,8 @@ export const CuratorChatModal: React.FC<CuratorChatModalProps> = ({
       id: 'm-1',
       sender: 'curator',
       text: currentLang === 'en'
-        ? 'Namaskaram! I am Acharya Srinivas Sharma, Principal Cultural Curator at Jignasa Experia. Are you seeking sacred temple darshans, handloom pit-loom masterclasses, or planning an intergenerational family pilgrimage?'
-        : 'నమస్కారం! నేను ఆచార్య శ్రీనివాస్ శర్మ, జిజ్ఞాస ఎక్స్‌పీరియా ప్రధాన సాంస్కృతిక క్యూరేటర్‌ని. పవిత్ర దర్శనాలు, చేనేత మగ్గాల పరిశీలన లేదా కుటుంబ యాత్రల రూపకల్పనలో మీకు ఎలా సహాయపడగలను?',
+        ? 'Namaskaram! I am Acharya Srinivas Sharma, Principal Cultural Curator at AP TOURISM. Are you seeking sacred temple darshans, handloom pit-loom masterclasses, or planning an intergenerational family pilgrimage?'
+        : 'నమస్కారం! నేను ఆచార్య శ్రీనివాస్ శర్మ, AP TOURISM ప్రధాన సాంస్కృతిక క్యూరేటర్‌ని. పవిత్ర దర్శనాలు, చేనేత మగ్గాల పరిశీలన లేదా కుటుంబ యాత్రల రూపకల్పనలో మీకు ఎలా సహాయపడగలను?',
       timestamp: 'Just now',
     },
   ]);
@@ -100,8 +100,8 @@ export const CuratorChatModal: React.FC<CuratorChatModalProps> = ({
           : 'విజయవాడ లేదా గుంటూరులోని మీ హోటల్ నుండి మా సురక్షిత ఏసీ వాహనం మిమ్మల్ని తీసుకువెళ్ళి, తిరిగి సురక్షితంగా చేరుస్తుంది.';
       } else {
         curatorReply = currentLang === 'en'
-          ? 'Every Jignasa Experia journey is privately hosted by generational custodians with zero commercial hurry. May I guide you to explore our flagship sacred experiences?'
-          : 'జిజ్ఞాస ఎక్స్‌పీరియా ప్రతి పర్యటనను అత్యున్నత భక్తి శ్రద్ధలతో, ప్రత్యేక సాంస్కృతిక గురువుల సమక్షంలో నిర్వహిస్తుంది.';
+          ? 'Every AP TOURISM journey is privately hosted by generational custodians with zero commercial hurry. May I guide you to explore our flagship sacred experiences?'
+          : 'AP TOURISM ప్రతి పర్యటనను అత్యున్నత భక్తి శ్రద్ధలతో, ప్రత్యేక సాంస్కృతిక గురువుల సమక్షంలో నిర్వహిస్తుంది.';
         targetSlug = 'mangalagiri-sacred-hill-handloom';
         actionTitle = currentLang === 'en' ? 'Explore Flagship Immersion' : 'ముఖ్య అనుభవాన్ని వీక్షించండి';
       }

@@ -213,7 +213,7 @@ export const InvoiceModal: React.FC<InvoiceModalProps> = ({
               <p>Please present this digital pass or booking code to your Cultural Facilitator upon arrival.</p>
             </div>
             <div className="text-right">
-              <div className="font-serif italic font-bold text-[#A52B23] text-sm">Jignasa Experia</div>
+              <div className="font-serif italic font-bold text-[#A52B23] text-sm">AP TOURISM</div>
               <div className="text-[10px] text-[#B4A28A]">Digitally Certified by Cultural Custodian Office</div>
             </div>
           </div>

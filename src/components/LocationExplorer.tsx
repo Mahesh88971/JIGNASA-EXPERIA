@@ -70,7 +70,7 @@ export const LocationExplorer: React.FC<LocationExplorerProps> = ({ location, ex
         setLocationResult(
           distance < 100
             ? `Photo GPS matches ${nearest.name}, ${nearest.city} (about ${distance.toFixed(1)} km away).`
-            : `Photo GPS is at ${lat.toFixed(5)}, ${lng.toFixed(5)}. The nearest Jignasa location is ${nearest.name}, ${nearest.city}.`
+            : `Photo GPS is at ${lat.toFixed(5)}, ${lng.toFixed(5)}. The nearest AP TOURISM location is ${nearest.name}, ${nearest.city}.`
         );
         setQuery(`${lat},${lng}`);
         return;

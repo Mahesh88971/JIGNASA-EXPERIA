@@ -2,7 +2,7 @@ export type Language = 'en' | 'te';
 
 export const TRANSLATIONS = {
   en: {
-    brandName: 'Jignasa Experia',
+    brandName: 'AP TOURISM',
     tagline: 'Experience Andhra. Become Andhra.',
     subtext: 'Curated cultural journeys, sacred rituals, crafts, and stories of Andhra Pradesh.',
     exploreExperiences: 'Explore Experiences',
@@ -11,7 +11,7 @@ export const TRANSLATIONS = {
     myPasses: 'My Passes',
     navHome: 'Home',
     navExperiences: 'Experiences',
-    navWhyUs: 'Why Jignasa Experia',
+    navWhyUs: 'Why AP TOURISM',
     navStories: 'Cultural Heritage',
     navFaq: 'FAQs',
     quickStats: {
@@ -23,7 +23,7 @@ export const TRANSLATIONS = {
     featuredTitle: 'Featured Cultural Immersions',
     featuredSubtitle: 'Handpicked participatory journeys guided by scholars, master artisans, and spiritual custodians.',
     viewExperience: 'View Experience',
-    whyTitle: 'Why Jignasa Experia',
+    whyTitle: 'Why AP TOURISM',
     whySubtitle: 'We reject commercial, rushed sightseeing. Every immersion is slow, meaningful, and transformative.',
     whyBlocks: [
       {
@@ -82,7 +82,7 @@ export const TRANSLATIONS = {
     salesInquiryMsg: 'For groups larger than 25 guests, our VIP Heritage Delegation desk coordinates custom charters and bespoke pricing.'
   },
   te: {
-    brandName: 'జిజ్ఞాస ఎక్స్‌పీరియా',
+    brandName: 'AP TOURISM',
     tagline: 'ఆంధ్రను దర్శించండి. ఆంధ్రత్వాన్ని పొందండి.',
     subtext: 'ఆంధ్రప్రదేశ్ దివ్య క్షేత్రాలు, చేనేత కళలు, సజీవ సంప్రదాయాలు మరియు ప్రాచీన కథల విశిష్ట అనుభవాలు.',
     exploreExperiences: 'అనుభవాలను అన్వేషించండి',
@@ -91,7 +91,7 @@ export const TRANSLATIONS = {
     myPasses: 'నా పాస్‌లు',
     navHome: 'హోమ్',
     navExperiences: 'అనుభవాలు',
-    navWhyUs: 'జిజ్ఞాస ఎక్స్‌పీరియా ఎందుకు?',
+    navWhyUs: 'AP TOURISM ఎందుకు?',
     navStories: 'సాంస్కృతిక వైభవం',
     navFaq: 'తరచుగా అడిగే ప్రశ్నలు',
     quickStats: {
@@ -103,7 +103,7 @@ export const TRANSLATIONS = {
     featuredTitle: 'విశిష్ట సాంస్కృతిక అనుభవాలు',
     featuredSubtitle: 'చారిత్రక నిపుణులు, చేనేత శిల్పులు మరియు వేద పండితుల ప్రత్యక్ష మార్గదర్శకత్వంలో.',
     viewExperience: 'పూర్తి వివరాలు చూడండి',
-    whyTitle: 'జిజ్ఞాస ఎక్స్‌పీరియా ప్రత్యేకత ఏమిటి?',
+    whyTitle: 'AP TOURISM ప్రత్యేకత ఏమిటి?',
     whySubtitle: 'కేవలం పర్యాటకం కాదు; జీవితంలో గుర్తుండిపోయే సాంస్కృతిక దీక్ష.',
     whyBlocks: [
       {

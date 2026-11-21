@@ -87,7 +87,7 @@ export const CustomerDashboardPage: React.FC<CustomerDashboardPageProps> = ({
           <div className="space-y-1">
             <div className="flex items-center gap-2">
               <span className="w-8 h-8 rounded-full bg-[#A52B23] text-white flex items-center justify-center font-serif font-bold text-sm">
-                JE
+                AT
               </span>
               <h1 className="font-serif text-2xl sm:text-3xl font-bold text-[#211915]">
                 {currentLang === 'en' ? 'Your Reserved Experiences' : 'మీ రిజర్వ్ చేయబడిన అనుభవాలు'}

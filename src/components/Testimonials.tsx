@@ -43,7 +43,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ currentLang }) => {
     },
     {
       quote: currentLang === 'en'
-        ? '“We were dreading long temple lines with our 80-year-old mother. Jignasa Experia’s facilitators treated us with royal dignity and reverence.”'
+        ? '“We were dreading long temple lines with our 80-year-old mother. AP TOURISM’s facilitators treated us with royal dignity and reverence.”'
         : '“వృద్ధులైన మా అమ్మగారితో తిరుపతి నగర యాత్ర అత్యంత ప్రశాంతంగా, గౌరవప్రదంగా జరిగింది.”',
       author: 'Col. Ravindra Varma (Retd.)',
       role: 'Senior Veteran, Hyderabad',

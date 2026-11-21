@@ -1,4 +1,4 @@
-# Jignasa Experia — Premium Cultural Tourism Platform
+# AP TOURISM — Premium Cultural Tourism Platform
 > *“Experience Andhra. Become Andhra.”*
 
 A production-ready, high-performance experiential cultural tourism platform designed to benchmark with luxury travel leaders like **Airbnb Experiences**, **GetYourGuide**, and **National Geographic Travel**.
@@ -8,7 +8,7 @@ Built with React 19, TypeScript, Tailwind CSS v4, Lucide Icons, and Canvas Confe
 ---
 
 ## 🏛️ Brand & Visual Identity
-- **Brand**: Jignasa Experia (జిజ్ఞాస ఎక్స్‌పీరియా)
+- **Brand**: AP TOURISM
 - **Tagline**: *“Experience Andhra. Become Andhra.”*
 - **Aesthetic**:
   - Warm Ivory backgrounds (`#FAF7F2`)
@@ -30,7 +30,8 @@ Built with React 19, TypeScript, Tailwind CSS v4, Lucide Icons, and Canvas Confe
   4. Tirupati City Cultural Tour – Tirupati
   5. Kondapalli Toys Experience – Amaravati
   6. Lakshmi Narasimha Temple Experience – Amaravati
-- **Why Jignasa Experia**: 4 core pillars (*Cultural Facilitators, Not Guides*, *Participatory Tourism*, *VIP Sacred Access*, *Tangible Keepsake Kits*).
+- **Why Jignasa Experia**:
+  4 core pillars (*Cultural Facilitators, Not Guides*, *Participatory Tourism*, *VIP Sacred Access*, *Tangible Keepsake Kits*).
 - **Testimonials Carousel**: Real reflections from global NRIs and cultural scholars with interactive navigation.
 - **Bespoke Concierge Drawer**: Interactive "Talk to Experience Curator" live dialogue desk with Acharya Srinivas Sharma.
 

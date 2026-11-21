@@ -83,7 +83,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             aria-label={`${t.brandName} home`}
           >
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[#966000]/70 bg-gradient-to-br from-[#9F312B] to-[#631C18] font-serif text-sm font-bold tracking-tight text-[#FFF8EA] shadow-[0_5px_14px_rgba(165,43,35,0.2)] transition-transform group-hover:-rotate-3 group-hover:scale-105">
-              JE
+              AT
             </span>
             <span className="min-w-0">
               <span className="block truncate font-serif text-lg font-bold leading-tight tracking-tight text-[#2D1E18] transition-colors group-hover:text-[#A52B23] sm:text-xl">

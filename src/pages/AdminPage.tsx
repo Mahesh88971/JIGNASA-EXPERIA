@@ -138,7 +138,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({
           <div>
             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#A52B23]">
               <ShieldCheck className="w-4 h-4 text-[#966000]" />
-              <span>Jignasa Experia Cultural Operations Desk</span>
+              <span>AP TOURISM Cultural Operations Desk</span>
             </div>
             <h1 className="font-serif text-3xl font-bold text-[#211915] mt-1">
               Admin & Stewardship Console

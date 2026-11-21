@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Language } from '../data/translations';
+import { publicUrl } from '../utils/publicUrl';
 
 interface HeritageStoryProps {
   currentLang: Language;
@@ -39,7 +40,7 @@ export const HeritageStory: React.FC<HeritageStoryProps> = ({ currentLang, onExp
 
         <figure className="group relative isolate overflow-hidden rounded-[1.75rem] border border-[#DDC8A6] bg-[#34251D] shadow-cultural-lg">
           <img
-            src="/images/home/living-heritage.webp"
+            src={publicUrl('/images/home/living-heritage.webp')}
             alt={isEnglish
               ? 'A Mangalagiri master weaver working at a traditional handloom'
               : 'సాంప్రదాయ మగ్గంపై పనిచేస్తున్న మంగళగిరి చేనేత నిపుణురాలు'}

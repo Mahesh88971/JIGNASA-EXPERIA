@@ -24,6 +24,7 @@ import { ConfirmedBooking, Experience } from '../types';
 import { EXPERIENCES_DATA } from '../data/experiences';
 import { formatINR } from '../utils/pricing';
 import { Language } from '../data/translations';
+import { publicUrl } from '../utils/publicUrl';
 
 interface AdminPageProps {
   currentLang: Language;
@@ -456,7 +457,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({
                 >
                   <div className="space-y-2">
                     <img
-                      src={exp.heroImage}
+                      src={publicUrl(exp.heroImage)}
                       alt={exp.title}
                       className="w-full h-36 object-cover rounded-lg"
                     />

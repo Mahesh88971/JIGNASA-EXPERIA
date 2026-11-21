@@ -16,6 +16,7 @@ import { Experience } from '../types';
 import { BOOKING_RATE_DETAILS, formatINR } from '../utils/pricing';
 import { Language, TRANSLATIONS } from '../data/translations';
 import { LocationExplorer } from '../components/LocationExplorer';
+import { publicUrl } from '../utils/publicUrl';
 
 interface ExperienceDetailPageProps {
   experience: Experience;
@@ -164,7 +165,7 @@ export const ExperienceDetailPage: React.FC<ExperienceDetailPageProps> = ({
                     className="group relative aspect-[16/10] flex-[0_0_100%] snap-start overflow-hidden rounded-2xl border border-[#E9D4B2] bg-[#34251D] shadow-cultural"
                   >
                     <img
-                      src={img}
+                      src={publicUrl(img)}
                       alt={`${experience.title} — photo ${(idx % experience.galleryImages.length) + 1}`}
                       loading={idx === 0 ? 'eager' : 'lazy'}
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"

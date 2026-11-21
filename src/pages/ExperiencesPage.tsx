@@ -17,6 +17,7 @@ import { Category, LocationKey, DurationKey } from '../types';
 import { formatINR } from '../utils/pricing';
 import { Language, TRANSLATIONS } from '../data/translations';
 import { getUpcomingWeekendDates } from '../utils/dates';
+import { publicUrl } from '../utils/publicUrl';
 
 interface ExperiencesPageProps {
   currentLang: Language;
@@ -426,7 +427,7 @@ export const ExperiencesPage: React.FC<ExperiencesPageProps> = ({
                     {/* Card Image */}
                     <div className="relative aspect-4/3 overflow-hidden bg-[#34251D]">
                       <img
-                        src={exp.heroImage}
+                        src={publicUrl(exp.heroImage)}
                         alt={exp.title}
                         loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"

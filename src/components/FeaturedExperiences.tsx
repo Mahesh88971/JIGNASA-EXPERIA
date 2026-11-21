@@ -3,6 +3,7 @@ import { Clock, MapPin, Star, ArrowRight, Sparkles } from 'lucide-react';
 import { Language, TRANSLATIONS } from '../data/translations';
 import { usePortalContent } from '../data/portalStore';
 import { formatINR } from '../utils/pricing';
+import { publicUrl } from '../utils/publicUrl';
 
 interface FeaturedExperiencesProps {
   currentLang: Language;
@@ -59,7 +60,7 @@ export const FeaturedExperiences: React.FC<FeaturedExperiencesProps> = ({
               {/* Card Image & Badges */}
               <div className="relative aspect-4/3 overflow-hidden bg-[#34251D]">
                 <img
-                  src={exp.heroImage}
+                  src={publicUrl(exp.heroImage)}
                   alt={exp.title}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowRight, Compass, Sparkles } from 'lucide-react';
 import { Language, TRANSLATIONS } from '../data/translations';
+import { publicUrl } from '../utils/publicUrl';
 
 interface HeroProps {
   currentLang: Language;
@@ -43,7 +44,7 @@ export const Hero: React.FC<HeroProps> = ({
         {heroBackgrounds.map((src, index) => (
           <img
             key={src}
-            src={src}
+            src={publicUrl(src)}
             alt=""
             className={`absolute inset-0 h-full w-full scale-[1.03] object-cover object-center brightness-90 transition-opacity duration-1000 motion-reduce:transition-none ${
               index === activeBackgroundIndex ? 'opacity-100' : 'opacity-0'

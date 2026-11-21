@@ -22,7 +22,9 @@ import { usePortalContent, savePortalContent } from './data/portalStore';
 const DEFAULT_EXPERIENCE_SLUG = 'mangalagiri-sacred-hill-handloom';
 
 function routeFromPath(pathname: string) {
-  const segments = pathname.split('/').filter(Boolean).map(decodeURIComponent);
+  const hashPath = window.location.hash.replace(/^#/, '');
+  const relativePath = hashPath || pathname.replace(/^\/JIGNASA-EXPERIA\/?/, '/');
+  const segments = relativePath.split('/').filter(Boolean).map(decodeURIComponent);
 
   if (segments[0] === 'experiences' && segments[1]) {
     return { page: 'experience-detail', experienceSlug: segments[1] };
@@ -42,7 +44,7 @@ function pathForPage(page: string, experienceSlug: string) {
 }
 
 export function App() {
-  const isAdminPortal = window.location.pathname === '/secure-operations';
+  const isAdminPortal = window.location.pathname.replace(/^\/JIGNASA-EXPERIA\/?/, '/') === '/secure-operations';
   const [adminToken, setAdminToken] = useState<string | null>(() =>
     isAdminPortal ? sessionStorage.getItem('je_admin_token') : null
   );
@@ -112,7 +114,7 @@ export function App() {
     const nextSlug = experienceSlug || selectedExperienceSlug;
     if (page === 'experience-detail' && experienceSlug) setSelectedExperienceSlug(experienceSlug);
     setActivePage(page);
-    window.history.pushState({}, '', pathForPage(page, nextSlug));
+    window.history.pushState({}, '', `${import.meta.env.BASE_URL}#${pathForPage(page, nextSlug)}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

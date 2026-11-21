@@ -15,6 +15,7 @@ import {
 import { Experience } from '../types';
 import { BOOKING_RATE_DETAILS, formatINR } from '../utils/pricing';
 import { Language, TRANSLATIONS } from '../data/translations';
+import { LocationExplorer } from '../components/LocationExplorer';
 
 interface ExperienceDetailPageProps {
   experience: Experience;
@@ -186,6 +187,8 @@ export const ExperienceDetailPage: React.FC<ExperienceDetailPageProps> = ({
                 {experience.description}
               </p>
             </div>
+
+            <LocationExplorer location={experience.city} experienceTitle={experience.title} />
 
             {/* Highlights (Bullet Points) */}
             <div className="bg-[#FFF8EA] rounded-2xl p-8 border border-[#E9D4B2] shadow-xs space-y-4">
@@ -403,7 +406,6 @@ export const ExperienceDetailPage: React.FC<ExperienceDetailPageProps> = ({
               )}
             </div>
           </section>
-
         </div>
       </div>
     </div>
